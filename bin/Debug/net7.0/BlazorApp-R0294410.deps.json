@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "BlazorApp-R0294410/1.0.0": {
         "dependencies": {
-          "Blazored.LocalStorage": "4.4.0"
+          "Blazored.LocalStorage": "4.4.0",
+          "PublishSPAforGitHubPages.Build": "2.1.0"
         },
         "runtime": {
           "BlazorApp-R0294410.dll": {}
@@ -69,6 +70,7 @@
       },
       "Microsoft.Extensions.Primitives/7.0.0": {},
       "Microsoft.JSInterop/7.0.0": {},
+      "PublishSPAforGitHubPages.Build/2.1.0": {},
       "System.IO.Pipelines/7.0.0": {}
     }
   },
@@ -168,6 +170,13 @@
       "sha512": "sha512-C9diwCnaWZ7PH3zOyf2zgcwFEqbSU11DzCnUPXCf5cqXMFeZDrEDP+M74TiCURKJ5vxImRvMtD7RiHYCtkxoXw==",
       "path": "microsoft.jsinterop/7.0.0",
       "hashPath": "microsoft.jsinterop.7.0.0.nupkg.sha512"
+    },
+    "PublishSPAforGitHubPages.Build/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VRWnrSgdtrWazAz+ECswdRqGYwE7KyKwh4HtdWuH2jDjBjwtaM4NiSY1c962XU3soLW2EDnIOMJ08EJRX2VDqA==",
+      "path": "publishspaforgithubpages.build/2.1.0",
+      "hashPath": "publishspaforgithubpages.build.2.1.0.nupkg.sha512"
     },
     "System.IO.Pipelines/7.0.0": {
       "type": "package",

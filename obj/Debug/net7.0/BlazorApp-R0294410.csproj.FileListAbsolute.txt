@@ -31,3 +31,5 @@ C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenge
 C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenges\BlazorApp-R0294410\obj\Debug\net7.0\BlazorApp-R0294410.pdb
 C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenges\BlazorApp-R0294410\obj\Debug\net7.0\BlazorApp-R0294410.genruntimeconfig.cache
 C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenges\BlazorApp-R0294410\obj\Debug\net7.0\ref\BlazorApp-R0294410.dll
+C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenges\BlazorApp-R0294410\bin\Debug\net7.0\package-lock.json
+C:\Users\Jeroen\OneDrive\Documenten\Cursussen\School\Jaar3-Semester1\ITChallenges\BlazorApp-R0294410\bin\Debug\net7.0\package.json
