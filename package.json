@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "homepage": {
+    "name": "BlazorApp-R0294410",
+    "version": "0.1.0",
+    "homepage": "https://R0294410.github.io/BlazorGHPages"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}

@@ -204,6 +204,12 @@
           }
         }
       },
+      "PublishSPAforGitHubPages.Build/2.1.0": {
+        "type": "package",
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.targets": {}
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -535,6 +541,32 @@
         "microsoft.jsinterop.nuspec"
       ]
     },
+    "PublishSPAforGitHubPages.Build/2.1.0": {
+      "sha512": "VRWnrSgdtrWazAz+ECswdRqGYwE7KyKwh4HtdWuH2jDjBjwtaM4NiSY1c962XU3soLW2EDnIOMJ08EJRX2VDqA==",
+      "type": "package",
+      "path": "publishspaforgithubpages.build/2.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/PublishSPAforGitHubPages.Build.targets",
+        "bundle/scripts/brotliloader.js",
+        "bundle/scripts/brotliloader.min.js",
+        "bundle/scripts/decode.js",
+        "bundle/scripts/decode.min.js",
+        "nupkg-icon.png",
+        "publishspaforgithubpages.build.2.1.0.nupkg.sha512",
+        "publishspaforgithubpages.build.nuspec",
+        "tools/Brotli.Core.dll",
+        "tools/PublishSPAforGitHubPages.Build.dll",
+        "tools/runtimes/linux/native/brolib_x64.so",
+        "tools/runtimes/linux/native/brolib_x86.so",
+        "tools/runtimes/osx/native/brolib_x64.dylib",
+        "tools/runtimes/win/native/brolib_x64.dll",
+        "tools/runtimes/win/native/brolib_x86.dll"
+      ]
+    },
     "System.IO.Pipelines/7.0.0": {
       "sha512": "jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "type": "package",
@@ -565,7 +597,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Blazored.LocalStorage >= 4.4.0"
+      "Blazored.LocalStorage >= 4.4.0",
+      "PublishSPAforGitHubPages.Build >= 2.1.0"
     ]
   },
   "packageFolders": {
@@ -611,6 +644,10 @@
           "Blazored.LocalStorage": {
             "target": "Package",
             "version": "[4.4.0, )"
+          },
+          "PublishSPAforGitHubPages.Build": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [

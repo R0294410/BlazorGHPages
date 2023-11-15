@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Jeroen\.nuget\packages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgPublishSPAforGitHubPages_Build Condition=" '$(PkgPublishSPAforGitHubPages_Build)' == '' ">C:\Users\Jeroen\.nuget\packages\publishspaforgithubpages.build\2.1.0</PkgPublishSPAforGitHubPages_Build>
+  </PropertyGroup>
 </Project>
