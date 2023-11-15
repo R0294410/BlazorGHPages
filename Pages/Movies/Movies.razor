@@ -1,0 +1,39 @@
+﻿@page "/movies"
+
+<PageTitle>Films opzoeken (OMDB API)</PageTitle>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Films zoeken (OMDB API)</h1>
+            <form id="searchForm" class="form-inline">
+                <div class="form-group m-2">
+                    <label for="zoekterm">Zoekterm</label>
+                    <input type="text"
+                           class="form-control mx-2"
+                           id="zoekterm"
+                           name="zoekterm"
+                           @bind=SearchTerm />
+                </div>
+                <button type="button" id="buttonZoeken" class="btn btn-primary m-2" @onclick="SearchMovie">
+                    Zoeken
+                </button>
+            </form>
+        </div>
+    </div>
+    <p>@SearchTerm</p>
+    <div class="row m-2">
+        <div class="col-md-12">
+            <div class="row p-2" id="divMsg"></div>
+            <div class="row p-3" id="divResult">
+                @if(ListMovies != null)
+                {
+                    @foreach (var movie in ListMovies)
+                    {
+                        <MovieComponent Title="@movie.Title" Poster="@movie.Poster" Year="@movie.Year" />
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

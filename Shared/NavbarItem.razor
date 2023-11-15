@@ -1,0 +1,8 @@
+﻿@inject NavigationManager Navigation
+
+<li class="nav-item me-3 me-lg-0 navItem" @onclick="GoToPage">
+    <NavLink class="nav-link text-white" href="@Url" Match="NavLinkMatch.All">
+        <span class="oi oi-@Icon" aria-hidden="true"></span>
+        @Name
+    </NavLink>
+</li>
