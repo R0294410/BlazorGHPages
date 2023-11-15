@@ -1,0 +1,71 @@
+/* _content/BlazorApp-R0294410/Shared/MainLayout.razor.rz.scp.css */
+.page[b-mxaeukisil] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-mxaeukisil] {
+    flex: 1;
+}
+
+.sidebar[b-mxaeukisil] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-mxaeukisil] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-mxaeukisil]  a, .top-row .btn-link[b-mxaeukisil] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-mxaeukisil] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-mxaeukisil] {
+        display: none;
+    }
+
+    .top-row.auth[b-mxaeukisil] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-mxaeukisil], .top-row .btn-link[b-mxaeukisil] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-mxaeukisil] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-mxaeukisil] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-mxaeukisil] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-mxaeukisil], article[b-mxaeukisil] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
